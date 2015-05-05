@@ -9,6 +9,9 @@ public class Main {
 		Greeter g = ctx.getBean("greeter", Greeter.class);
 		String msg = g.greet("스프링");
 		System.out.println(msg);
+		
+		msg = g.greet("웹 개발자들 환영합니다.");
+		System.out.println(msg);
 		ctx.close();
 	}
 }
