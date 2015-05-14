@@ -10,8 +10,8 @@ public class Main {
 		String msg = g.greet("스프링");
 		System.out.println(msg);
 		
-		msg = g.greet("웹 개발자들 환영합니다.");
-		System.out.println(msg);
+		// msg = g.greet("웹 개발자들 환영합니다.");
+		// System.out.println(msg);
 		ctx.close();
 	}
 }
